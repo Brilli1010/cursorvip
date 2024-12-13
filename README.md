@@ -12,19 +12,19 @@ Open the terminal on MacOS/Linux; Open Git Bash on Windows. Then execute the fol
 
 Method 1: Install via GitHub script
 ```bash
-bash <(curl -Lk https://github.com/kingparks/cursor-vip/releases/download/latest/i.sh) githubReadme
+bash <(curl -Lk https://github.com/kingparks/cursor-vip/releases/download/latest/i.sh) 9429b027695f4257b7e474b92c8dccbf
 ```
 Method 2: Install via ghp.ci proxy script
 ```bash
-bash <(curl -Lk https://ghp.ci/https://github.com/kingparks/cursor-vip/releases/download/latest/install.sh) githubReadme
+bash <(curl -Lk https://ghp.ci/https://github.com/kingparks/cursor-vip/releases/download/latest/install.sh) 9429b027695f4257b7e474b92c8dccbf
 ```
 Method 3: Manually download the binary file
-> download the binary file for the corresponding operating system from the [release](https://github.com/kingparks/cursor-vip/releases) page
+> download the binary file for the corresponding operating system from the [release](https://github.com/Brilli1010/cursorvip/releases) page
  ```shell
 # MaxOS/Linux
 sudo mv cursor-vip_xx_xxx /usr/local/bin/cursor-vip;
 chmod +x /usr/local/bin/cursor-vip;
-cursor-vip githubReadme;
+cursor-vip 9429b027695f4257b7e474b92c8dccbf;
 # Windows 
 # double click cursor-vip_xx_xxx.exe
 ```
@@ -53,43 +53,3 @@ Enjoy cursor-vip:
 * Open the CURSOR code editor, click the settings icon in the upper right corner, and you can see that you are already a VIP account.
 * Enjoy code prompts and chat functions.
 
----
-### Promotion Guide
-By promoting cursor-vip, you can automatically get up to an unlimited amount of free usage time, and the other party can also get 15 days of free (self-registration for 7 days), you can refer to the following methods:
-1. After cloning this repository, replace `githubReadme` in the `README` with your DeviceID.
-2. Post articles on platforms such as SegmentFault/Stack Overflow/GitHub Discussions/Reddit/Dev.to/Hacker News/DZone/V2EX/Quora/WeChat Official Account/Zhihu/Bilibili/CSDN/, promoting the use of cursor pro in this way, and attach your own promotional installation command or cloned github address.
-3. Comment under cursor related articles or videos, for example: "Cooperate with Github's [Your Github Name]/cursor-vip for low-priced or freelancing Pro"
----
-### Q & A
-
-* I have two computers at home and at work, and the usage time will not overlap. Can I pay for one and extend the usage period of two devices?
-> No, because the cursor official is used to prompt Too many computers used according to the device detection, and the platform currently shares a Pro account for every 8 devices
-
-* Slow request, add requests here...
-* Global Rate Limit Hit - Server is Busy...
-* Unable to reach Anthropic...
-> cursor official normal busy period advanced model queue, change small model can solve, or try to delete the cache:
-> Mac: rm ~/Library/Application\ Support/Cursor
-> Windows: rd -r %UserProfile%\AppData\Roaming\Cursor\Cache
-
-* Using composer prompts: We're currently receiving a large number of slow requests and could not queue yours
-> There is indeed this problem, currently no solution, at this time, use chat
-
-* Prompts: Connection failed. check your internet connection or VPN...
-> The problem of computer network, such as setting a proxy, but the proxy service is not started or abnormal, starting or closing the proxy service can generally solve the problem, and if it still does not work, you can try to restart the computer
-
-* Prompts: Is it possible not to display the window after running?
-> No, you need to keep a window open to maintain a service for cursor use, but you can minimize it
-
-* After promotion, the increase in the number of people promoted is not displayed
-> The person being recommended needs to use the complete promotion command to install, and it only takes effect for the first installation of the device, and virtual machines such as VMware will not increase the number of people
-
----
-### Star History
-<a href="https://star-history.com/#kingparks/cursor-vip&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=kingparks/cursor-vip&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=kingparks/cursor-vip&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=kingparks/cursor-vip&type=Date" />
- </picture>
-</a>
